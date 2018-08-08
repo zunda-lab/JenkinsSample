@@ -62,7 +62,8 @@ public class TestHealthCheck extends TestCase {
         bmiBean.setHeight(height);
         bmiBean.setWeight(weight);
         healthCheck.execute(bmiBean);
-        final String expected = "低体重";
+        final String expected = "やせ気味";
+//        final String expected = "低体重";
         final String actual = bmiBean.getBodyType();
         assertEquals(expected, actual);
     }
