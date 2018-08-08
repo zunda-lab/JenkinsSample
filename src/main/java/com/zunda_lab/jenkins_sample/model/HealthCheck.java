@@ -30,7 +30,7 @@ public class HealthCheck {
         } else {
             bodyType = "肥満";
         }
-        bmiBean.setBodyType(bodyType);
+        bmiBean.setBodyType(bodyType)
     }
 
 }
