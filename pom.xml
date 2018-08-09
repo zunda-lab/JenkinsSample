@@ -22,6 +22,14 @@
   </dependencies>
   <build>
     <finalName>JenkinsSample</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.2-SNAPSHOT</version>
+      </plugin>
+    </plugins>
+
   </build>
   <properties>
     <maven.test.failure.ignore>true</maven.test.failure.ignore>
