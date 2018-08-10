@@ -43,6 +43,6 @@
     <maven.test.failure.ignore>true</maven.test.failure.ignore>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <jacoco.include.package>**/*</jacoco.include.package>
-  </properties>
+<!--     <jacoco.include.package>**/*</jacoco.include.package>
+ -->  </properties>
 </project>
