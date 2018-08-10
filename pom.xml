@@ -46,7 +46,7 @@
             <id>validate</id>
             <phase>validate</phase>
             <configuration>
-              <configLocation>config/checkstyle/my_sun_checks.xml</configLocation>
+              <configLocation>config/checkstyle/my_sun_check.xml</configLocation>
               <failOnViolation>false</failOnViolation>
             </configuration>
             <goals>
