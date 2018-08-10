@@ -65,6 +65,8 @@
             <phase>process-classes</phase>
             <configuration>
               <xmlOutput>true</xmlOutput>
+              <findbugsXmlOutput>true</findbugsXmlOutput>
+              <xmlOutputDirectory>${basedir}/target</xmlOutputDirectory>
               <failOnError>false</failOnError>
             </configuration>
             <goals>
