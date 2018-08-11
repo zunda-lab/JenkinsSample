@@ -1,11 +1,10 @@
 package com.zunda_lab.jenkins_sample.model;
 
-import java.io.Serializable;
-
 /**
  * BMIビーンクラス.
  */
-public class BmiBean implements Serializable {
+//public class BmiBean implements Serializable {
+public class BmiBean {
 
     /** 身長. */
     private double height;
