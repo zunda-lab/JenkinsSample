@@ -30,6 +30,7 @@ public class HealthCheck {
             bodyType = "普通体重";
         } else {
             bodyType = "肥満";
+            bodyType.replace('肥', 'ひ');
         }
         bmiBean.setBodyType(bodyType);
     }
