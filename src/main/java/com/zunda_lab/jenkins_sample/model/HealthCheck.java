@@ -26,11 +26,11 @@ public class HealthCheck {
         String bodyType;
         if (bmi < BMI_NORMAL_LOWER_LIMIT) {
             bodyType = "低体重";
+            bodyType.replace("低体重", "痩せ型");
         } else if (bmi < BMI_NORMAL_UPPER_LIMIT) {
             bodyType = "普通体重";
         } else {
             bodyType = "肥満";
-            bodyType.replace('肥', 'ひ');
         }
         bmiBean.setBodyType(bodyType);
     }
