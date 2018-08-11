@@ -11,6 +11,8 @@ public class HealthCheck {
     private static final double BMI_NORMAL_LOWER_LIMIT = 18.5;
     /** BMI標準の上限値. */
     private static final double BMI_NORMAL_UPPER_LIMIT = 25.0;
+//    /** BMI肥満（4度）の下限値. */
+//    private static final double BMI_OBESE_LOWER_LIMIT = 40.0;
 
     /**
      * BMIを算出する.
@@ -31,6 +33,8 @@ public class HealthCheck {
             // bodyType = bodyType.replace("低体重", "痩せ型");
         } else if (bmi < BMI_NORMAL_UPPER_LIMIT) {
             bodyType = "普通体重";
+//        } else if (bmi >= BMI_OBESE_LOWER_LIMIT) {
+//            bodyType = "肥満（4度）";
         } else {
             bodyType = "肥満";
         }
