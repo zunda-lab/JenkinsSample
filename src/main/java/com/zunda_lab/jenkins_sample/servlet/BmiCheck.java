@@ -18,7 +18,7 @@ import com.zunda_lab.jenkins_sample.model.HealthCheck;
 @WebServlet("/BmiCheck")
 public class BmiCheck  extends HttpServlet {
     /**
-     * シリアルバージョン番号
+     * シリアルバージョン番号.
      */
     private static final long serialVersionUID = 1L;
 
