@@ -28,7 +28,7 @@ public class HealthCheck {
         if (bmi < BMI_NORMAL_LOWER_LIMIT) {
             bodyType = "低体重";
             // FindBugsにわざと検知させるための行
-            bodyType.replace("低体重", "痩せ型")
+            bodyType.replace("低体重", "痩せ型");
             // String.replace()は置換した文字列を返却するため、使用する場合は以下が正解
             // bodyType = bodyType.replace("低体重", "痩せ型");
         } else if (bmi < BMI_NORMAL_UPPER_LIMIT) {
